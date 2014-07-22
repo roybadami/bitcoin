@@ -118,3 +118,4 @@ Bitcoin Core is a multithreaded application, and deadlocks or other multithreadi
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of what locks
 are held, and adds warning to the debug.log file if inconsistencies are detected.
+
